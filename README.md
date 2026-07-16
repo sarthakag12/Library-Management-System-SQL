@@ -1,4 +1,4 @@
-Project Overview
+ # Project Overview
 This project involves building and managing a comprehensive Library Management System using SQL. The goal is to design a relational database schema that efficiently tracks book inventory, branch details, employee structures, member registrations, and transaction histories (issued and returned books). Beyond database design, the project focuses on writing complex SQL queries to extract data-driven insights, analyze business operations, and optimize library management.
 
 # Database Architecture & Schema
@@ -19,7 +19,7 @@ return_status: Records returned books, return dates, and notes on book condition
 
 
 Markdown
-!(ERD.png)
+! ERD.png
 
 
 # Key Business Problems Addressed
