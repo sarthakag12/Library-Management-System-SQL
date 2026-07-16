@@ -51,6 +51,7 @@ This project showcases a wide range of data manipulation and analysis techniques
 * Subqueries & CTEs: Breaking down complex business logic (like identifying overdue books) into clean, readable queries.
 
 # Project Repository Structure
+
 📁 Datasets/: Contains the raw CSV data files used to populate the system (books.csv, members.csv, etc.).
 
 📄 Schemas.sql: The full SQL script defining the tables, constraints, and relational schema.
@@ -62,8 +63,9 @@ This project showcases a wide range of data manipulation and analysis techniques
 # How to Run This Project
 Clone the repository:
 
-Bash
+```bash
 git clone https://github.com/YOUR_USERNAME/Library-Management-System-SQL.git
+```
 
 - Setup the Database: Open your preferred SQL workbench (PostgreSQL, MySQL, SQL Server), create a new database, and execute the queries inside Schemas.sql to build the infrastructure.
 
