@@ -59,13 +59,14 @@ Subqueries & CTEs: Breaking down complex business logic (like identifying overdu
 
 📄 ERD.pgerd: The database design diagram.
 
-#How to Run This Project
+# How to Run This Project
 Clone the repository:
 
 Bash
 git clone https://github.com/YOUR_USERNAME/Library-Management-System-SQL.git
-Setup the Database: Open your preferred SQL workbench (PostgreSQL, MySQL, SQL Server), create a new database, and execute the queries inside Schemas.sql to build the infrastructure.
 
-Import Data: Load the datasets from the Datasets/ folder into their respective tables.
+- Setup the Database: Open your preferred SQL workbench (PostgreSQL, MySQL, SQL Server), create a new database, and execute the queries inside Schemas.sql to build the infrastructure.
 
-Run Analysis: Execute the queries in Task File.sql to explore the business insights.
+- Import Data: Load the datasets from the Datasets/ folder into their respective tables.
+
+- Run Analysis: Execute the queries in Task File.sql to explore the business insights.
