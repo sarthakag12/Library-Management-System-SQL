@@ -4,17 +4,17 @@ This project involves building and managing a comprehensive Library Management S
 # Database Architecture & Schema
 The system is built on a relational database design featuring 6 interconnected tables.
 
-branch: Information about individual library branches (Branch ID, Manager, Address, Contact).
+* branch: Information about individual library branches (Branch ID, Manager, Address, Contact).
 
-employees: Employee details, roles, salaries, and branch assignments.
+* employees: Employee details, roles, salaries, and branch assignments.
 
-members: Registered library members and their registration dates.
+* members: Registered library members and their registration dates.
 
-books: The library inventory, including titles, ISBNs, categories, rental prices, and availability status.
+* books: The library inventory, including titles, ISBNs, categories, rental prices, and availability status.
 
-issued_status: Tracks books loaned out to members, including issue dates and assigned employee IDs.
+* issued_status: Tracks books loaned out to members, including issue dates and assigned employee IDs.
 
-return_status: Records returned books, return dates, and notes on book condition.
+* return_status: Records returned books, return dates, and notes on book condition.
 
 
 
@@ -27,27 +27,28 @@ The project is divided into operational queries and advanced data analysis tasks
 1. Operational & Inventory Tracking
 Book Availability Analysis: Identified specific books currently loaned out versus those available in stock to optimize member fulfillment.
 
-Branch Performance: Analyzed which library branches generate the highest engagement based on total issued books.
+  Branch Performance: Analyzed which library branches generate the highest engagement based on total issued books.
 
-Active Member Tracking: Isolated members who registered within specific timeframes or who have active, unreturned rentals.
+  Active Member Tracking: Isolated members who registered within specific timeframes or who have active, unreturned rentals.
 
 2. Advanced Analytics & Business Insights
 Overdue Book & Fine Analysis: Tracked books returned past their expected duration to help the library identify potential revenue leakage or inventory blockages.
 
-Employee Performance & Workload: Evaluated which employees are handling the most transactions to optimize branch staffing levels.
+  Employee Performance & Workload: Evaluated which employees are handling the most transactions to optimize branch staffing levels.
 
-Category Popularity: Segmented book rentals by genre/category to assist the procurement team in deciding which books to buy more of in the future.
+  Category Popularity: Segmented book rentals by genre/category to assist the procurement team in deciding which books to buy more of in the future.
 
 # SQL Concepts Demonstrated
+
 This project showcases a wide range of data manipulation and analysis techniques, including:
 
-DDL & DML: Designing table structures, defining primary/foreign keys, and managing data consistency.
+* DDL & DML: Designing table structures, defining primary/foreign keys, and managing data consistency.
 
-Complex Joins: Utilizing INNER JOIN, LEFT JOIN, and multi-table joins to unify disparate tracking data.
+* Complex Joins: Utilizing INNER JOIN, LEFT JOIN, and multi-table joins to unify disparate tracking data.
 
-Aggregation & Filtering: Grouping metrics using GROUP BY, HAVING, and window functions to calculate totals and averages.
+* Aggregation & Filtering: Grouping metrics using GROUP BY, HAVING, and window functions to calculate totals and averages.
 
-Subqueries & CTEs: Breaking down complex business logic (like identifying overdue books) into clean, readable queries.
+* Subqueries & CTEs: Breaking down complex business logic (like identifying overdue books) into clean, readable queries.
 
 # Project Repository Structure
 📁 Datasets/: Contains the raw CSV data files used to populate the system (books.csv, members.csv, etc.).
