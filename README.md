@@ -1,10 +1,12 @@
 # ShelfMetrics: Library Operations & Inventory Analytics
 
 ## Project Overview
-...
+
 ShelfMetrics is a relational database and analytics project designed to manage and optimize library operations. The core objective is to move beyond basic data storage by engineering a robust SQL schema that tracks book inventory, branch productivity, employee structures, member registrations, and transaction lifecycles (loans and returns).
 
 By leveraging advanced SQL queries, ShelfMetrics transforms raw transactional logs into actionable business insights—allowing stakeholders to monitor asset circulation, evaluate branch performance, identify inventory bottlenecks, and optimize overall library efficiency.
+
+!(ShelfMetrics.png)
 
 # Database Architecture & Schema
 The system is built on a relational database design featuring 6 interconnected tables.
