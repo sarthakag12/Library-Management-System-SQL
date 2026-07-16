@@ -18,8 +18,7 @@ return_status: Records returned books, return dates, and notes on book condition
 
 
 
-Markdown
-! ERD.png
+![Library System ERD](ERD.png)
 
 
 # Key Business Problems Addressed
