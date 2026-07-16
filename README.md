@@ -6,7 +6,7 @@ ShelfMetrics is a relational database and analytics project designed to manage a
 
 By leveraging advanced SQL queries, ShelfMetrics transforms raw transactional logs into actionable business insights—allowing stakeholders to monitor asset circulation, evaluate branch performance, identify inventory bottlenecks, and optimize overall library efficiency.
 
-!(ShelfMetrics.png)
+![ShelfMetrics](ShelfMetrics.png)
 
 # Database Architecture & Schema
 The system is built on a relational database design featuring 6 interconnected tables.
